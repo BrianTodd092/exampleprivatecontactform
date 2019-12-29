@@ -30,7 +30,7 @@
     $formsent=mail($to, $subject, $msg, $mailheaders); //send the email
     if ($formsent)
      {
-      echo "<p style= 'background-color:green;color:white;'> Form Recieved</p>";
+      echo "<p style= 'background-color:green;color:white;'> Form Received</p>";
      }
      else
      {
@@ -44,7 +44,7 @@
        echo  $msg;
        ?>
 
-       </p>
+       </p>of
    <p><a href="index.html">go back</a></p>
 
  </body>
